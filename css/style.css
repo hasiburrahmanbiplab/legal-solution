@@ -115,6 +115,10 @@ ul{
 .practice-item .card .card-body{
     padding: 0;
 }
-
-
 /* practice part end */
+/* client part start */
+.client-heading{
+    width: 570px;
+    max-width: 100%;
+}
+/* client part end */
