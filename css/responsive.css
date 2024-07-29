@@ -23,10 +23,22 @@
     .banner-h1 {
         font-size: 45px;
     }
-    
+    .section-h2 {
+        font-size: 35px;
+    }
+    .section-h3 {
+        font-size: 25px;
+    }
+    .practice-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
 }
-@media (min-width:768px) and (max-width:911.99px) {
-   
+@media (min-width:768px) and (max-width:991.99px) {
+    .practice-content{
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
     
 }
 @media (min-width:992px) and (max-width:1199.99px){
