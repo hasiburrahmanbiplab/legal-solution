@@ -33,4 +33,7 @@ a{
     text-decoration: none;
     display: inline-block;
 }
+.common-btn{
+    background-color: var(--btn-color);
+}
 /* common css end */
