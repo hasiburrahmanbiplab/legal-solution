@@ -97,7 +97,22 @@ ul{
     width: 570px;
     max-width: 100%;
 }
-.practice-item .card .card-img{
-    width: 30%;
+.practice-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
 }
+.practice-item .card .card-img{
+    width: 25%;
+    height: 25%;
+}
+.practice-item .card .card-img img{
+    width :100%;
+    height:100%;
+}
+.practice-item .card .card-body{
+    padding: 0;
+}
+
+
 /* practice part end */

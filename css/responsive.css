@@ -5,11 +5,18 @@
     .section-h2 {
         font-size: 30px;
     }
+    .section-h3 {
+        font-size: 25px;
+    }
     .banner-container .overly {
         width: 100%;
     }
     .banner-search{
         width: 100%;
+    }
+    .practice-content{
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 }
 @media (min-width:576px) and (max-width:767.99px) {
