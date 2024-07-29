@@ -9,6 +9,8 @@
     --dark-6:#E7E7E7;
     --dark-7:#F3F3F3;
     --white :#FFFFFF;
+    --poppines : "Poppins", sans-serif;
+    --EB-Garamond: "EB Garamond", serif; 
 }
 /* common css start */
 *{
@@ -25,15 +27,37 @@ ul{
     padding: 0;
     margin: 0;
 }
-li{
-    display: inline-block;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    display: inline-block;
-}
 .common-btn{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:var(--poppines) ;
+    color: var(--white);
+    padding: 15px 20px;
     background-color: var(--btn-color);
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
 }
 /* common css end */
+/* header part start */
+.main-navbar .custom-nav-toggler{
+    padding: 5px;
+}
+.main-navbar .custom-nav-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+.main-ul{
+    gap: 15px;
+}
+.main-dropdown{
+    width: 50%;
+}
+.main-navbar .nav-item .nav-link{
+    font-size: 16px;
+    font-family: var(--poppines);
+    font-weight: 400;
+    color: var(--dark-3);
+}
+/* header part end */
