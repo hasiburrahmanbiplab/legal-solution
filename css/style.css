@@ -100,7 +100,9 @@ ul{
 .practice-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    /* gap: 80px; */
+    column-gap: 30px;
+    row-gap: 80px;
 }
 .practice-item .card .card-img{
     width: 25%;

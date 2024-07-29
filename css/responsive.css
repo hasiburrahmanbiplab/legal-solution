@@ -31,13 +31,13 @@
     }
     .practice-content{
         grid-template-columns: 1fr 1fr;
-        gap: 60px;
+        column-gap: 30px;
+        row-gap: 70px;
     }
 }
 @media (min-width:768px) and (max-width:991.99px) {
     .practice-content{
         grid-template-columns: 1fr 1fr;
-        gap: 60px;
     }
     
 }
