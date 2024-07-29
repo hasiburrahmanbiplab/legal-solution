@@ -50,6 +50,9 @@ ul{
 .section-h2{
     font-size: 45px;
 }
+.section-h3{
+    font-size: 30px;
+}
 /* common css end */
 /* header part start */
 .main-navbar .custom-nav-toggler{
@@ -89,3 +92,12 @@ ul{
     height: 70%;
 }
 /* banner part end */
+/* practice part start */
+.practice-heading{
+    width: 570px;
+    max-width: 100%;
+}
+.practice-item .card .card-img{
+    width: 30%;
+}
+/* practice part end */
