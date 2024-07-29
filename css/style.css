@@ -27,6 +27,12 @@ ul{
     padding: 0;
     margin: 0;
 }
+.poppines{
+    font-family:"Poppins", sans-serif;
+}
+.eb-garamond{
+    font-family:"EB Garamond", serif;
+}
 .common-btn{
     font-size: 16px;
     font-weight: 600;
@@ -48,11 +54,11 @@ ul{
 	outline: 0;
 	box-shadow: none;
 }
-.main-ul{
-    gap: 15px;
-}
 .main-dropdown{
     width: 50%;
+}
+.main-ul{
+    gap: 15px;
 }
 .main-navbar .nav-item .nav-link{
     font-size: 16px;
@@ -61,3 +67,14 @@ ul{
     color: var(--dark-3);
 }
 /* header part end */
+/* banner part start */
+.banner-container{
+    background-image: url(/images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+
+/* banner part end */
