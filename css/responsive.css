@@ -5,6 +5,9 @@
     .banner-container .overly {
         width: 100%;
     }
+    .banner-search{
+        width: 100%;
+    }
 }
 @media (min-width:576px) and (max-width:767.99px) {
     .banner-h1 {
