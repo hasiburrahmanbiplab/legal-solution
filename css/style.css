@@ -139,7 +139,6 @@ ul{
 }
  .main-accordion .inner-item {
 	border: none;
-   
 }
 .main-accordion .inner-btn{
     padding: 3px;
@@ -156,4 +155,10 @@ ul{
  .main-accordion .inner-body {
 	padding: 10px 0;
 }
+.question-image img{
+    width: 100%;
+    height: 90%;
+}
 /* question part end */
+/* <p class="fs-6 poppines fw-nomal text-secondary-emphasis lh-base">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p> */
+/* fs-4 eb-garamond fw-bold text-secondary-emphasis"  */
