@@ -130,5 +130,11 @@ ul{
     height: 100%;
     filter: brightness(0.6);
 }
-
 /* client part end */
+/* question part start */
+
+.question-heading{
+    width: 570px;
+    max-width: 100%;
+}
+/* question part end */
