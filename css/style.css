@@ -157,5 +157,7 @@ ul{
 }
 /* question part end */
 /* contact part start */
-
+.contact-heading{
+    max-width: 570px;
+}
 /* contact part end */
