@@ -137,4 +137,23 @@ ul{
     width: 570px;
     max-width: 100%;
 }
+ .main-accordion .inner-item {
+	border: none;
+   
+}
+.main-accordion .inner-btn{
+    padding: 3px;
+}
+.main-accordion .inner-btn:not(.collapsed) {
+	background-color: transparent;
+}
+.main-accordion .inner-btn:focus {
+   box-shadow: none;
+}
+.main-accordion .inner-btn:not(.collapsed) {
+	box-shadow: none;
+}
+ .main-accordion .inner-body {
+	padding: 10px 0;
+}
 /* question part end */
