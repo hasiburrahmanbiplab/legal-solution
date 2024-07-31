@@ -27,6 +27,9 @@ ul{
     padding: 0;
     margin: 0;
 }
+li{
+    list-style: none;
+}
 .poppines{
     font-family:"Poppins", sans-serif;
 }
@@ -161,3 +164,10 @@ ul{
     max-width: 570px;
 }
 /* contact part end */
+/* footer part start */
+#footer{
+    background-color: var(--dark-2);
+    
+}
+/* footer part end */
+
