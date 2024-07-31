@@ -81,7 +81,7 @@ li{
 /* header part end */
 /* banner part start */
 .banner-container{
-    background-image: url(/images/banner.png);
+    background-image: url(../images/banner.png);
     background-color: rgba(2, 2, 2, 0.26);
     background-repeat: no-repeat;
     background-position: center;
